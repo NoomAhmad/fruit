@@ -153,8 +153,8 @@ body{
 .fruit .img{
     display: flex;
     flex-direction: column;
-    width: 120%;
-    height: 98%;
+    width: 95%;
+    height: 92%;
     
 }
 
@@ -168,7 +168,7 @@ body{
 .fruit .fa-plus-circle{
     position: static;
     margin-left: 90%;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     color: #555;
 }
 
