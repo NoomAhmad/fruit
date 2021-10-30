@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.0/css/all.css">
+    <link href="css/main.css" rel="stylesheet" >
+    <title>Fruit</title>
+</head>
+<body>
+    <div class="mather">
+        <div class="header">
+            <div class="title">
+                <h2>Fresh Fruits</h2>
+                <p>We have more than 100 fruits</p>
+            </div>
+           
+            <div class="menu-squire">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+
+        <div class="slider">
+            <i class="fas fa-search"></i><input  type="text" class="seachBox" placeholder="Search for fruit">
+            <div class="fruits" id="moveingFruit"  onmouseover="moveLeft()" onmouseover="moveRight()">
+                <div class="fruit avocado" >
+                    <div class="img">
+                        <img src="avocado.png">
+                    </div>
+                    <h4>Avocado</h4>
+                    <p>250kg</p>
+                    <p class="price">$ 28.0</p>
+                    <i class="fas fa-plus-circle"></i>
+                </div>
+
+                <div class="fruit pinapple">
+                    <div class="img">
+                        <img src="pinapple.png">
+                    </div>
+                    <h4>Pinapple</h4>
+                    <p>250kg</p>
+                    <p class="price">$ 30.0</p>
+                    <i class="fas fa-plus-circle"></i>
+                </div>
+
+                <div class="fruit orange">
+                    <div class="img">
+                        <img src="orange.png">
+                    </div>
+                    <h4>Orange</h4>
+                    <p>250kg</p>
+                    <p class="price">$ 12.0</p>
+                    <i class="fas fa-plus-circle"></i>
+                </div>
+
+                <div class="fruit banana">
+                    <div class="img">
+                        <img src="banana.png">
+                    </div>
+                    <h4>banana</h4>
+                    <p>250kg</p>
+                    <p class="price">$ 23.0</p>
+                    <i class="fas fa-plus-circle"></i>
+                </div>
+            </div>
+        </div>
+        <div class="last">
+            <div class="lastMenu">
+                <a href="#" id="active">HOT</a>
+                <a href="#">NEW</a>
+                <a href="#">ALL</a>
+            </div>
+            <div class="HOT">
+                <div class="img">
+                    <img src="lemon.png">
+                </div>
+                <div class="imgTitle">
+                    <h3>Lemon</h3>
+                    <p>$ 18.0</p>
+                </div>
+                <i class="fas fa-plus-circle"></i>
+            </div>
+        </div>
+    </div>
+    <script>
+        function moveLeft(){
+            var clientlogos = document.getElementById('moveingFruit');
+            clientlogos.scrollTo(1000,0);
+        }
+
+        function moveRight(){
+            var clientlogos = document.getElementById('moveingFruit');
+            clientlogos.scrollTo(-1000, 0);
+        }
+    </script>
+</body>
+</html>
