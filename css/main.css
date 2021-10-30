@@ -76,7 +76,7 @@ body{
 
 .slider .seachBox{
     position: relative;
-    border-radius: 5px;
+    border-radius: 12px;
     display: block;
     padding: 16px 40px;
     margin: 5px;
@@ -222,7 +222,7 @@ body{
     width: 26%;
     height: 28%;
     background-color:#98FB98;
-    border-radius: 5px;
+    border-radius: 12px;
 }
 
 .HOT .img img{
