@@ -133,6 +133,9 @@ body{
 .pinapple , banana{
     background-color: #90EE90;
 }
+.pinapple .img{
+   width:120%
+}
 
 .fruit h4 , p{
     padding: 0px;
@@ -158,6 +161,7 @@ body{
     flex-direction: column;
     width: 98%;
     height: 100%;
+   
     
 }
 
