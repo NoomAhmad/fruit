@@ -130,7 +130,7 @@ body{
     background-color: #50C878;
 }
 
-.pinapple{
+.pinapple, banana{
     background-color: #90EE90;
 }
 
@@ -161,6 +161,10 @@ body{
     height: 100%;
   
 }
+.pinapple .img{
+   width:80%; 
+   height: 60%;
+ }
 
 .fruit .img img{
     width: 100%;
@@ -168,10 +172,7 @@ body{
     object-fit: contain;
     
 }
-.pinapple .img{
-   width:73%; 
-   height: 60%;
- }
+
 
 .fruit .fa-plus-circle{
     position: static;
