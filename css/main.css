@@ -107,7 +107,7 @@ body{
     flex-direction: row;
     flex-wrap: nowrap;
     overflow-x: auto;
-    height: 300px;
+    height: 320px;
     width: 100%;
     padding: 2px;
     margin: 5px;
@@ -120,8 +120,8 @@ body{
 .fruit{
     display: flex;
     flex-direction: column;
-    width: 64%;
-    height: 280px;
+    width: 66%;
+    height: 300px;
     padding:12px;
     margin: 12px;
     border-radius: 16px;
