@@ -116,7 +116,7 @@ body{
 .fruit{
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 64%;
     height: 280px;
     padding:12px;
     margin: 12px;
@@ -167,7 +167,7 @@ body{
 
 .fruit .fa-plus-circle{
     position: static;
-    margin-left: 80%;
+    margin-left: 90%;
     margin-bottom: 20px;
     color: #555;
 }
