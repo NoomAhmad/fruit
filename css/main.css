@@ -116,7 +116,7 @@ body{
 .fruit{
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 80%;
     height: 280px;
     padding:12px;
     margin: 12px;
