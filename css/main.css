@@ -120,7 +120,7 @@ body{
     height: 280px;
     padding:12px;
     margin: 12px;
-    border-radius: 12px;
+    border-radius: 16px;
     display: flex;
     flex : 0 0 auto;
     background-color: #98FB98;
@@ -161,7 +161,7 @@ body{
 .fruit .img img{
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     
 }
 
