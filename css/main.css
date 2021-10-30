@@ -130,7 +130,7 @@ body{
     background-color: #50C878;
 }
 
-.pinapple{
+.pinapple , banana{
     background-color: #90EE90;
 }
 
@@ -156,8 +156,8 @@ body{
 .fruit .img{
     display: flex;
     flex-direction: column;
-    width: 95%;
-    height: 98%;
+    width: 98%;
+    height: 100%;
     
 }
 
