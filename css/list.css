@@ -40,7 +40,7 @@
         width: 100%;
         background-color: #fff;
         border-top-right-radius: 36%;
-        padding: 40px;
+        padding: 30px;
     }
 
     h2{
@@ -137,7 +137,7 @@
     .button{
         border: none;
         color: white;
-        padding: 12px 60px;
+        padding: 12px 80px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
