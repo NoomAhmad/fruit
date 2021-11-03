@@ -137,7 +137,8 @@
     .button{
         border: none;
         color: white;
-        padding: 12px 60px;
+        padding: 12px;
+        width: 80%;
         text-align: center;
         text-decoration: none;
         display: inline-block;
@@ -156,8 +157,9 @@
 
     .heart{
         background-color: #6ef89c;
-        padding: 12px 18px;
+        padding: 12px;
         margin-left: 20px;
+        width: 16%;
     }
 
     .fa-plus-circle{
