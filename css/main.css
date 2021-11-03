@@ -118,6 +118,7 @@ body{
 }
 
 .fruit{
+    cursor: pointer;
     display: flex;
     flex-direction: column;
     width: 60%;
