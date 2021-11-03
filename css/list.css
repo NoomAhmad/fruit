@@ -137,7 +137,8 @@
     .button{
         border: none;
         color: white;
-        padding: 12px 80px;
+        padding: 12px;
+        width:50%;
         text-align: center;
         text-decoration: none;
         display: inline-block;
